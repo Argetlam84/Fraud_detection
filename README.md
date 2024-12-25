@@ -1,8 +1,13 @@
 # Fraud Detection
 
+
 This dataset can be accessed <a href="https://huggingface.co/datasets/Nooha/cc_fraud_detection_dataset">Here</a>
 
 This project was developed collaboratively with <a href="https://github.com/GulsahKLC">Gülşah Kılıç</a>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/668287a2-0f78-42c7-9c4d-920479da14a7" alt="Image description" />
+</p>
 
 This project focuses on analyzing a dataset to derive meaningful insights. The analysis involves data preparation, cleaning, and visualization, utilizing Microsoft SQL Server and Tableau. Additionally, sensitive data, such as SSN, was hashed using an irreversible SHA256 algorithm to ensure data privacy.
 
@@ -20,7 +25,7 @@ Tools and Technologies
 -	Proposed and applied strategies such as imputation or exclusion to handle missing data.
 -	Ensured the privacy of sensitive information by hashing the SSN attribute using the SHA256 algorithm, making it irreversible.
 -	Data Integration: Combined necessary columns and tables to create a cohesive and usable dataset.
--	SQL Queries: After the datasets were loaded into SQL, they were merged, and each variable was examined individually. Queries were executed using conditional expressions to detect inconsistencies between specific columns. General KPI values were identified using SQL queries. After data retrieval, table merging, and data analysis operations, they were used both in the machine learning process and integrated with Tableau.
+-	SQL Queries: After the datasets were loaded into SQL, they were merged, and each variable was examined individually. Queries were executed using conditional expressions to detect inconsistencies between specific columns. General KPI values were identified using SQL queries.After data retrieval, table merging, and data analysis operations, they were used both in the machine learning process and integrated with Tableau.
 -	Imbalanced Dataset Identification: Uneven data distribution was observed and flagged for resolution during the modeling phase.
 
 3. Data Analysis
@@ -51,7 +56,7 @@ Example Dashboard Features:
 (by Gülşah)
 
 <p align="center">
-  <img src="Fraud_detection/pictures/all.png" alt="Image description" />
+  <img src="https://github.com/user-attachments/assets/cf264b10-ccc7-4cb2-b624-c1a3781a55a3" alt="Image description" />
 </p>
 
 # Machine Learning Section
@@ -79,3 +84,7 @@ Further efforts were made to enhance the results, and an ensemble approach was i
 - F1: 0.9983
   
 (by Mehmet)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7c51445b-f54a-422f-85e1-e83057f94b53" alt="Image description" />
+</p>
