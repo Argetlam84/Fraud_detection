@@ -1,0 +1,11 @@
+pandas
+numpy
+seaborn
+scikit-learn
+tensorflow
+matplotlib
+pyarrow
+fastparquet
+imbalanced-learn
+lightgbm
+optuna
